@@ -54,6 +54,7 @@
     <Compile Include="Writer.fs" />
     <Compile Include="Deploy.fs" />
 
+    <Compile Include="Arm/ActionGroup.fs" />
     <Compile Include="Arm/DiagnosticSetting.fs" />
     <Compile Include="Arm/ManagedIdentity.fs" />
     <Compile Include="Arm/LogAnalytics.fs" />
@@ -90,6 +91,7 @@
     <Compile Include="Arm/Databricks.fs" />
     <Compile Include="Arm/VirtualWan.fs" />
     <Compile Include="IdentityExtensions.fs" />
+    <Compile Include="Builders/Builders.ActionGroup.fs" />
     <Compile Include="Builders/Builders.LogAnalytics.fs" />
     <Compile Include="Builders/Builders.Helpers.fs" />
     <Compile Include="Builders/Builders.UserAssignedIdentity.fs" />

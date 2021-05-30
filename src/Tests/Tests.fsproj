@@ -9,6 +9,7 @@
   <ItemGroup>
     <Content Include="test-data\*.json" CopyToOutputDirectory="PreserveNewest" />
     <Compile Include="Helpers.fs" />
+    <Compile Include="ActionGroup.fs" />
     <Compile Include="AppInsights.fs" />
     <Compile Include="DiagnosticSettings.fs" />
     <Compile Include="Common.fs" />
